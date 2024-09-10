@@ -1,0 +1,214 @@
+body{
+    background-color:#eee;
+    padding:0;
+    margin:0;
+}
+html{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+/* CSS de la cabecera */
+#cabecera{
+    background-color:#ffffff;
+    /* background-color:#a4bad3; */
+    text-align:center;
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+    height: 4.2em;
+    max-width: 100%;
+    width: 100%;
+    position: fixed;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+#titulo p{
+    font-size:1.5em;
+}
+
+#linksHeader a{
+    color:black;
+    font-size:1.5em;
+    padding:0.3em 1.2em;
+    border-radius:.4em;
+    text-decoration:none;
+}
+#linksHeader a:hover{
+    /* background-color:red; */
+    text-shadow: .5px .5px .5px rgba(71,71,70)
+}
+
+/* Primera seccion es la que contiene el fondo */
+
+#fondoImg{
+    padding-top:4em;
+    display:flex;
+    align-items:center;
+    /* margin-left:.6em; */
+    height:40%;
+}
+#fondoImg img{
+    max-width: 100%;
+    width: 100%;
+    
+}
+
+/* #fondoImg p{
+    display:flex;
+    align-items:flex-start
+    right:50%;
+} */
+
+
+/* Desde el siguiente conjunto puedes modificar la 
+posicion del texto sobre la foto */
+.titulo{
+    display:flex;
+    position:absolute;
+    right:35%;
+    bottom:50%;
+    text-align:left;
+    line-height: 1.5;
+}
+/* El el siguiente conjunto puedes modificar el color de
+la letra y tambien la tipografia */
+.titulo p{
+    color:white;
+    font-size:2em;
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    padding-left:1em;
+    /* right:50em; */
+    font-style:normal;
+}
+
+/* Segunda seccion con algunos datos  */
+
+#proposito{
+    background-color:#8a766f;
+    flex-wrap: wrap;
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+    padding:1em;
+}
+
+.imgLect{
+    width: 18em;
+    height: 18em;
+    border-radius:.5em
+}
+#textoInfo p{
+    font-size: 1.5em;
+}
+
+/* Segunda seccion, aqui se agregan otros lugares de busqueda */
+
+#info{
+    background-color:#8e967d;
+    flex-wrap:wrap;
+    padding :1em 0;
+}
+
+#tema{
+    display:flex;
+    align-items:center;
+    text-align:center;
+    justify-content: center;
+    border-bottom:solid 1px #737966;
+}
+#tema p{
+    padding-bottom:.5em ;
+    font-size:1.5em;
+}
+
+
+#datos{
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+    flex-wrap:wrap;
+    text-align: center;
+}
+
+
+.imgDato{
+    width: 20em;
+    height: 22em;
+    border-radius:.6em;
+}
+
+.imgInfo1{
+    color: #000;
+    line-height: 1.4;
+    text-align: center;
+}
+#estudios{
+    list-style-type:none;
+    padding-left:0;
+}
+#estudios a{
+    font-size:1.2em;
+    color:black;
+    text-decoration:none;
+    line-height: 2;
+}
+#estudios a:hover{
+    text-shadow: .5px .5px .5px rgb(71, 70, 70) ;
+    color:rgba(0,0,0.1)
+}
+
+.link{
+    padding:.5em 0;
+    font-size:1.3em;
+    text-decoration:none;
+    color:black;
+    display:block
+}
+.link:hover{
+    text-shadow: .5px .5px .5px rgb(71, 70, 70) ;
+    color:rgba(0,0,0.1)
+}
+
+/* Footer de la pagina */
+
+#footer{
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+    text-align:center;
+}
+#secciones{
+    padding-bottom:.5em;
+}
+#secciones p{
+    font-size:1.5em;
+}
+
+.ubicaciones{
+    list-style: none;
+    padding-left:0;
+    line-height: 2;
+}
+
+.ubicaciones a{
+    font-size:1.2em;
+    color:black;
+    text-decoration:none;
+}
+.ubicaciones a:hover{
+    text-shadow: .5px .5px .5px rgba(71,71,70);
+}
+
+#redesS p{
+    font-size:1.5em;
+}
+
+/* Solamente falta el hover de los links del 
+fotter estos se agregaran ya teniendo en cuenta el color
+del fondo  */
+
+
+

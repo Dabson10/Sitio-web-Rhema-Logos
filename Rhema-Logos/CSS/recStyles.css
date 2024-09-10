@@ -1,0 +1,223 @@
+body{
+    background-color:#eee ;
+    margin:0;
+    padding:0;
+}
+html{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+/* Cabecera */
+#cabecera{
+    background-color:#FFF;
+    display:flex;
+    text-align: center;
+    align-items:center;
+    justify-content:space-evenly;
+    max-width: 100%;
+    width: 100%;
+    height: 4.2em;
+    position:fixed;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    z-index: 9999;
+}
+
+#titulo p{
+    font-size:1.6em;
+}
+
+.linkH {
+    color:black;
+    text-decoration:none;
+    font-size:1.3em;
+}
+.linkH:hover{
+    text-shadow: .5px .5px .5px rgba(71,71,70);
+}
+/* Primera seccion fondo con video */
+
+#fondoVid{
+    max-width: 100%;
+    width: 100%;
+    padding-top:4.2em;
+    background-color:#FFF;
+}
+
+.videoF{
+    max-width: 100%;
+    width: 100%;
+    display:flex;
+}
+
+/* En esta seccion es para buscar el lugar de ciertos botones*/
+
+
+#clasificacion{
+    background-image:url(/imagenes/fotoOscura.jpg);
+    /* background-repeat: no-repeat; */
+    flex-wrap:wrap;
+    max-width:100%;
+    width: 100%;
+    align-items:center;
+    text-align: center;
+}
+
+.tema{
+    display:inline-block;
+    padding:1em 0;
+    font-size:1.2em;
+    border-bottom:1px solid #bdbdbd;
+}
+.tema p{
+    background-color: hsla(0, 10%, 89%, 0.7);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
+    display:inline-block;
+    padding:0.5em 1em;
+    margin-bottom:.5em;
+    border-radius:.7em;
+    
+}
+
+#botones{
+    padding-bottom:3em;
+    margin-top:3em;
+}
+
+.links{
+    background-color: hsla(0, 23%, 91%, 0.7);
+    box-shadow: 0 0 10px #ffffff99;
+    border-radius:.7em;
+    color:rgb(11, 11, 14);
+    text-decoration:none;
+    padding:.5em 1em;
+    margin:1em;
+}
+.links:hover{
+    color:#403d3d;
+    text-decoration:line-through;
+}
+
+/* seccion de las fiestas */
+#fiestas{
+    background-image:url(/imagenes/fondoCielo.jpg);
+    background-repeat: no-repeat;
+    max-width: 100%;
+    width: 100%;
+    /* background-color:#7c96a8; */
+    flex-wrap:wrap;
+    align-items:center;
+    text-align: center;
+}
+
+#linkFiestas{
+    padding-bottom:1.3em;
+}
+#linkFiestas p{
+    font-size: 18px;
+    background-color: hsla(0, 0%, 85%, 0.7);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
+    display:inline-block;
+    padding:.5em .5em;
+    border-radius:.7em;
+}
+#linkFiestas a{
+    display:inline-block;
+    text-decoration:none;
+    color:black;
+    padding:.5em 1em;
+    margin:.5em 1em;
+    background-color: hsla(0, 27%, 98%, 0.7);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
+    font-size:1.25em;
+    border-radius:.7em;
+}
+
+#linkFiestas a:hover{
+    color:#747272
+}
+
+/* Seccion de los profetas menores*/
+
+#profMenores{
+    background-image:url(/imagenes/fondoManta.jpg);
+    /* background-color:hotpink; */
+    max-width: 100%;
+    width: 100%;
+    display:flex;
+    align-items:center;
+    text-align:center;
+    justify-content:space-around;
+    padding:1em;
+    flex-wrap:wrap;
+    padding: 2.5em 0;
+}
+#profM p{
+    font-size:18px;
+    color:#eee;
+}
+#linkProfM a{
+    /* margin-left:3em; */
+    display:inline-block;
+    margin:.5em 1em;
+    padding:.5em;
+    font-size:18px;
+    color:black;
+    text-decoration:none;
+    background-color: hsla(0, 22%, 95%, 0.7);
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+    border-radius:.6em;
+}
+
+#linkProfM a:hover{
+    color:#3e3a3a;
+}
+
+
+/* Footer de la pagina */
+
+
+#footer{
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+    text-align:center;
+}
+#secciones{
+    padding-bottom:.5em;
+}
+#secciones p{
+    font-size:1.5em;
+}
+
+.ubicaciones{
+    list-style: none;
+    padding-left:0;
+    line-height: 2;
+}
+
+.ubicaciones a{
+    font-size:1.2em;
+    color:black;
+    text-decoration:none;
+}
+.ubicaciones a:hover{
+    text-shadow: .5px .5px .5px rgba(71,71,70);
+}
+
+#redesS p{
+    font-size:1.5em;
+}
+
+
+
+
+
+
+
+
+
+
+

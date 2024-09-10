@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Fuentes -->
+    <!-- Poppins
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Hoja de CSS -->
+    <link rel="stylesheet" href="/CSS/recStyles.css">
+    <!-- Icono -->
+    <link rel="icon" href="/imagenes/libro.png">
+    <title>Recursos</title>
+</head>
+<body>
+    <header id="cabecera">
+        <div id="tema">
+            <a href="#clasificacion" class="linkH">Recursos</a>
+        </div>
+        <div id="titulo">
+            <p>Rhema-Logos</p>
+        </div>
+        <div id="linksHeader">
+            <a href="index.html" class="linkH">Inicio</a>
+        </div>
+    </header>
+
+    <section id="fondoVid">
+        <video autoplay loop class="videoF">
+            <source src="videos/video1.mp4" type="video/mp4">
+        </video>
+    </section>
+
+    <section id="clasificacion">
+        <!-- Si no repites el tema del fondo medio transparente cambia lo a id-->
+        <div class="tema">
+            <p>Si desea algun estudio de click en la seccion que desee</p>
+        </div>
+        <div id="botones">
+            <a href="#fiestas" class="links">Fiestas del señor</a>
+            <a href="#profMenores" class="links">Profetas menores</a>
+        </div>
+    </section>
+    <!-- Seccion de las fiestas -->
+    <section id="fiestas">
+        <div class="tema">
+            <p>FIESTAS</p>
+        </div>
+        <div id="linkFiestas">
+            <p>'El Señor ordenó a Moisés que dijera a <br>
+                los israelitas:«Estas son las fiestas <br> 
+                que yo he establecido y a las que ustedes <br>
+                han de convocar como fiestas <br>
+                solemnes en mi honor. <br>
+                Yo, el Señor , las establecí. ' <br>
+                Levítico 23:1-2</p>
+                <br>
+                <a href="#fiestas" onclick="alerta()">PESAJ</a>
+                <a href="#fiestas" onclick="alerta()">PANES SIN LEVADURA</a>
+                <a href="#fiestas" onclick="alerta()">PRIMICIAS</a>
+                <a href="#fiestas" onclick="alerta()">SHAVUOT</a>
+                <a href="#fiestas" onclick="alerta()">YOM TERUAH</a>
+                <a href="#fiestas" onclick="alerta()">YOM KIPPUR</a>
+                <a href="#fiestas" onclick="alerta()">SUKKOT</a>
+        </div>
+    </section>
+    <!-- Seccion de los profetas menores -->
+    <section id="profMenores">
+        <div id="profM">
+            <p>Si deseas los estudios verso de <br>
+                algun profeta da click sobre el.
+            </p>
+        </div>
+        <div id="linkProfM">
+            <a href="/estudios/Oseas.pdf"class="linkProfM" target="_blank">OSEAS</a>
+            <a href="/estudios/Joel.pdf" class="linkProfM" target="_blank">JOEL</a>
+            <a href="/estudios/Amos.pdf" class="linkProfM" target="_blank">AMÓS</a>
+            <a href="/estudios/Abdias.pdf" class="linkProfM" target="_blank">ABDÍAS</a> <br>
+            <a href="/estudios/Jonas.pdf" class="linkProfM" target="_blank">JONAS</a>
+            <a href="/estudios/Miqueas.pdf"class="linkProfM" target="_blank">MIQUEAS</a>
+            <a href="/estudios/Nahum.pdf" class="linkProfM" target="_blank">NAHUM</a>
+            <a href="/estudios/Habacuc.pdf" class="linkProfM" target="_blank">HABACUC</a> <br>
+            <a href="/estudios/Sofonias.pdf" class="linkProfM"target="_blank">SOFONÍAS</a>
+            <a href="/estudios/Hageo.pdf" class="linkProfM" target="_blank">HAGEO</a>
+            <a href="#profMenores" class="linkProfM" onclick="alerta()">ZACARÍAS</script></a>
+            <a href="#profMenores" class="linkProfM" onclick="alerta()">MALAQUÍAS</a> <br>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer id="footer">
+        <div id="secciones">
+            <p>Rhema Logos</p>
+            <ul class="ubicaciones">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="recursos.html">Recursos</a></li>
+            </ul>
+        </div>
+        <div id="redesS">
+            <p>Redes sociales</p>
+            <ul class="ubicaciones">
+                <li><a href="https://www.facebook.com/people/rhemalogos/100071336002389/" target="_blank">Facebook</a></li>
+                <li><a href="https://www.instagram.com/rhema.logos/" target="_blank">Instagram</a></li>
+            </ul>
+        </div>
+    </footer>
+    <script>
+        function alerta(){
+            alert("El documento que busca aun no esta disponible. Gracias :)")
+        }
+    </script>
+</body>
+</html>
